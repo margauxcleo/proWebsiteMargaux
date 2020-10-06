@@ -1,0 +1,19 @@
+{
+  "name": "prowebsitemargaux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/margauxcleo/proWebsiteMargaux.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/margauxcleo/proWebsiteMargaux/issues"
+  },
+  "homepage": "https://github.com/margauxcleo/proWebsiteMargaux#readme"
+}
