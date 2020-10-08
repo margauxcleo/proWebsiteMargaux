@@ -1,1 +1,22 @@
+/*Graphical Charter*/
+/*mixin fonts*/
+@font-face {
+  font-family: "Roboto-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/roboto.eot?") format("eot"), url("../fonts/roboto.woff2") format("woff2"), url("../fonts/roboto.woff") format("woff"), url("../fonts/roboto.ttf") format("truetype"), url('../fonts/roboto.svg#str-replace("Roboto-Regular", " ", "_")') format("svg");
+}
+@font-face {
+  font-family: "OpenSans-Regular-webfont";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/open_sans_regular.eot?") format("eot"), url("../fonts/open_sans_regular.woff2") format("woff2"), url("../fonts/open_sans_regular.woff") format("woff"), url("../fonts/open_sans_regular.ttf") format("truetype"), url('../fonts/open_sans_regular.svg#str-replace("OpenSans-Regular-webfont", " ", "_")') format("svg");
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: #404040;
+  background-color: #fff;
+  font-size: 2rem;
+}
 
+/*# sourceMappingURL=style.css.map */
