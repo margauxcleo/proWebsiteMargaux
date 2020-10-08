@@ -1,7 +1,7 @@
 {
   "name": "prowebsitemargaux",
   "version": "1.0.0",
-  "description": "",
+  "description": "prowebsitemargaux",
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/margauxcleo/proWebsiteMargaux/issues"
   },
-  "homepage": "https://github.com/margauxcleo/proWebsiteMargaux#readme"
+  "homepage": "https://github.com/margauxcleo/proWebsiteMargaux#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.2"
+  }
 }
