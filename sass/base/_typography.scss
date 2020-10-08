@@ -1,8 +1,6 @@
-@include font-face(Roboto-Regular, fonts/roboto);
-@include font-face(OpenSans-Regular-webfont, fonts/open_sans_regular);
-
 body {
     font-family: 'Roboto', sans-serif;
     color: $color-primary;
+    background-color: $color-white;
     font-size: 2rem;
 }
