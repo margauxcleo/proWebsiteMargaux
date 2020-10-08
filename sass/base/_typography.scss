@@ -1,1 +1,8 @@
-_typography.scss
+@include font-face(Roboto-Regular, fonts/roboto);
+@include font-face(OpenSans-Regular-webfont, fonts/open_sans_regular);
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: $color-primary;
+    font-size: 2rem;
+}
